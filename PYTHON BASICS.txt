@@ -1,0 +1,75 @@
+Program #1
+CODE:
+print('Hello,World!')
+OUTPUT:
+Hello,World!
+
+
+Program #2
+CODE:
+import sys
+print(sys.version)
+OUTPUT:
+3.10.2 (main, Apr  9 2022, 20:52:01) [Clang 14.0.0 (https://github.com/llvm/llvm-project 78e87970af888bbbd5652c31f3a8
+
+
+Program #3
+CODE:
+print("This will be printed")
+frint("This will cause an error message to display")
+print("This will NOT be printed")
+
+OUTPUT:
+This will be printed
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+Cell In[5], line 2
+      1 print("This will be printed")
+----> 2 frint("This will cause an error message to display")
+      3 print("This will NOT be printed")
+
+NameError: name 'frint' is not defined
+
+#STOP FURTHER EXECUTION OF CODE.i.e,the third command will not get executed
+
+
+
+Program #4
+CODE:
+type(12.0)
+OUTPUT:
+float
+
+
+
+Program #5
+# Type of True
+​CODE:
+type(True)
+OUTPUT:
+bool
+
+
+Program #6
+CODE:
+int(True)
+OUTPUT:
+1
+
+
+Program #7
+CODE:
+bool(1)
+OUTPUT:
+True
+
+
+Program #8
+CODE:
+type(6/2)
+OUTPUT:
+float
+
+
+Program #9
+
